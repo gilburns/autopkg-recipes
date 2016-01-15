@@ -69,7 +69,7 @@ See the following URLs for more info:
 				<key>source</key>
 				<string>%pathname%</string>
 				<key>target</key>
-				<string>%NAME% %version% %LOCALE%.dmg</string>
+				<string>/Users/gburns/Library/AutoPkg/Cache/com.us-resources.autopkg.download.firefox-rc-en_US/downloads/Firefox %version% %LOCALE%.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>FileMover</string>
