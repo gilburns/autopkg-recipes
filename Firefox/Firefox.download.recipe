@@ -55,10 +55,24 @@ See the following URLs for more info:
 			<string>EndOfCheckPhase</string>
 		</dict>
 		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%NAME%.dmg</string>
+			</dict>
 			<key>Processor</key>
-			<string>Versioner</string>
-			<key>input_path</key>
-			<string>%pathname%/Firefox.app/Contents/Info.plist</string>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>source</key>
+				<string>%NAME%.dmg</string>
+				<key>target</key>
+				<string>%NAME% %version% %LOCALE%.dmg</string>
+			</dict>
+			<key>Processor</key>
+			<string>FileMover</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
