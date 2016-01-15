@@ -51,10 +51,6 @@ See the following URLs for more info:
 			<string>URLDownloader</string>
 		</dict>
 		<dict>
-			<key>Processor</key>
-			<string>EndOfCheckPhase</string>
-		</dict>
-		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
@@ -84,6 +80,10 @@ See the following URLs for more info:
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
 		</dict>
 	</array>
 </dict>
